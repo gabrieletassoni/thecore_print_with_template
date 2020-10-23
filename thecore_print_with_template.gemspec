@@ -16,7 +16,5 @@ Gem::Specification.new do |s|
 
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.md"]
 
-  # s.add_dependency "rails", "~> 5.2.1"
-    s.add_dependency 'thecore', '~> 1.4'
-    s.add_dependency 'thecore_print_commons', '~> 0.1'
+    s.add_dependency 'thecore_print_commons', '~> 2.0'
 end
